@@ -1,0 +1,19 @@
+body{
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+}
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+#container{
+    background-color: blueviolet;
+    opacity: 85%;
+    width : 50%;
+    max-width: 400px;
+    margin: auto;
+    border: 9px solid blueviolet;
+    border-radius: 5px;
+}
