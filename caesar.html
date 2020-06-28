@@ -3,21 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="contactstyle.css">
-        <script src="palindrome.js"></script>
+        <script src="caesar.js"></script>
         <title>
         Contact Form
         </title>
     </head>
     <body>
         <div id="container">
-            <h1 id="title">Palindrome Checker</h1>
+            <h1 id="title">Caesar Cipher</h1>
             <p id="description">
-            Enter a text string and check if it is a palindrome. 
+            Enter a text string and number to increment each letter that many places. 
             </p>
-            <form id="survey-form" onsubmit="palindrome()">
+            <form id="survey-form" onsubmit="caesar()">
             <label id="name-label" for="text">Input:
             </label><br>
-            <input type="text" id="name"  name="inputText" placeholder="Madam, I'm Adam" required ><br>  
+            <input type="text" id="name"  name="inputText" placeholder="Text" required ><br>  
+            <input type="number" id="number"  name="inputText" placeholder="Number" required ><br>  
 
             <input type="submit" id="submit"  value="Submit">
             
